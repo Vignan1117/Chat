@@ -565,10 +565,7 @@ function connect() {
     }
 
 
-    const socket =
-        new SockJS(
-            "http://localhost:8080/ws"
-        );
+    const socket = new SockJS('https://chat-backend-87uf.onrender.com/ws');
 
 
     stompClient =
